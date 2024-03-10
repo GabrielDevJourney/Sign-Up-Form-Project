@@ -6,9 +6,20 @@
 .main-container {
   display: flex;
   height: 100vh;
+  position: relative;
+}
+
+.left-frame{
+  position: relative;
+  height: 100vh;
 }
 
 .form-create-account{
-  width: 960px;
-  height: 1024px;
+  width: 980px;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  margin-left: 450px;
+  border-radius: 40px;
 }
