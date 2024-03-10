@@ -3,6 +3,15 @@
   box-sizing: border-box;
   font-size: 16px;
 }
+:root{
+  --button-links-: #e99265;
+  --textside-: white;
+  --header-builtBy: #434343;
+  --labelsText:#636363;
+  --warningFooter: #545454;
+}
+
+
 .main-container {
   display: flex;
   height: 100vh;
@@ -23,3 +32,14 @@
   margin-left: 450px;
   border-radius: 40px;
 }
+
+.side-text{
+  width: 450px;
+  font-family: syne,sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  color: var(--textside-);
+  transform: translate(8%,150%);
+}
+
