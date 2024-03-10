@@ -24,6 +24,9 @@
 }
 
 .form-create-account{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 980px;
   height: 100vh;
   position: absolute;
@@ -50,4 +53,6 @@
   left: 200px;
 }
 
+.form-sign-up{
 
+}
