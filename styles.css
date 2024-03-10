@@ -43,3 +43,10 @@
   transform: translate(8%,150%);
 }
 
+.shapes3d{
+  position: absolute;
+  z-index: 100;
+  top: 170px;
+  left: 200px;
+}
+
