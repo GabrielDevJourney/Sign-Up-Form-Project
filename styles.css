@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-size: 16px;
 }
+
 :root{
   --button-links-: #e99265;
   --textside-: white;
@@ -18,15 +19,17 @@
   position: relative;
 }
 
+/* *LEFT CONTAINER */
 .left-frame{
   position: relative;
   height: 100vh;
 }
 
+/* *FORM MAIN CONTAINER */
 .form-create-account{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   width: 980px;
   height: 100vh;
   position: absolute;
@@ -36,6 +39,7 @@
   border-radius: 40px;
 }
 
+/* *LEFT HEADER TEXT */
 .side-text{
   width: 450px;
   font-family: syne,sans-serif;
@@ -46,6 +50,7 @@
   transform: translate(8%,150%);
 }
 
+/* *IMAGERY */
 .shapes3d{
   position: absolute;
   z-index: 100;
@@ -53,6 +58,36 @@
   left: 200px;
 }
 
+/* *FORM STYLING */
 .form-sign-up{
+  width: 600px;
+  height: 700px;
+}
 
+
+.both-names{
+  display: flex;
+  justify-content:space-between;
+}
+
+#first-name, #last-name{
+  width: 265px;
+}
+
+/* *FIELDSET STYLING */
+fieldset{
+  border-radius: 8px;
+  height: 60px;
+}
+fieldset,button{
+  margin-top: 20px;
+}
+
+/* *INPUT STYLING */
+input{
+  width: 550px;
+  border: none;
+}
+input:focus{
+  outline: none;
 }
