@@ -60,11 +60,28 @@
 
 /* *FORM STYLING */
 .form-sign-up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 600px;
   height: 700px;
+  font-family: inter;
 }
 
+/* *HEADER FORM */
+header{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: var(--header-builtBy);
+  margin-bottom: px;
+}
 
+legend{
+  color: var(--labelsText);
+}
+
+/* *SEPERATE NAMES IN SAME CONTAINER */
 .both-names{
   display: flex;
   justify-content:space-between;
