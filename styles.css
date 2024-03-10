@@ -1,16 +1,14 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
+  font-size: 16px;
+}
+.main-container {
+  display: flex;
+  height: 100vh;
 }
 
-.main-container{
-  position: relative;
-}
-
-.image-icon, .image-background{
-  position: absolute;
-}
-
-.image-icon{
-  z-index: 1;
+.form-create-account{
+  width: 960px;
+  height: 1024px;
 }
