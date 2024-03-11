@@ -1,178 +1,185 @@
+
 * {
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-:root{
-  --button-links-: #e99265;
-  --textside-: white;
-  --header-builtBy: #434343;
-  --labelsText:#636363;
-  --warningFooter: #545454;
+:root {
+    --button-links-: #e99265;
+    --textside-: white;
+    --header-builtBy: #434343;
+    --labelsText: #636363;
+    --warningFooter: #545454;
 }
-
 
 .main-container {
-  display: flex;
-  height: 100vh;
-  position: relative;
+    display: flex;
+    height: 100vh;
+    position: relative;
 }
 
 /* *LEFT CONTAINER */
-.left-frame{
-  position: relative;
-  height: 100vh;
+.left-frame {
+    position: relative;
+    height: 100vh;
 }
 
 /* *FORM MAIN CONTAINER */
-.form-create-account{
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  width: 980px;
-  height: 100vh;
-  position: absolute;
-  z-index: 2;
-  background-color: white;
-  margin-left: 450px;
-  border-radius: 40px;
+.form-create-account {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 980px;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    margin-left: 450px;
+    border-radius: 40px;
 }
 
 /* *LEFT HEADER TEXT */
-.side-text{
-  width: 450px;
-  font-family: syne,sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  position: absolute;
-  color: var(--textside-);
-  transform: translate(8%,150%);
+.side-text {
+    width: 450px;
+    font-family: syne, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    color: var(--textside-);
+    transform: translate(8%, 150%);
 }
 
 /* *IMAGERY */
-.shapes3d{
-  position: absolute;
-  z-index: 100;
-  top: 170px;
-  left: 200px;
+.shapes3d {
+    position: absolute;
+    z-index: 100;
+    top: 170px;
+    left: 200px;
 }
 
 /* *FORM STYLING */
-.form-sign-up{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 600px;
-  font-family: inter;
+.form-sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    font-family: inter;
 }
 
 /* *HEADER FORM */
-header{
-  text-align: center;
-  font-size: 2.3rem;
-  font-weight: bold;
-  color: var(--header-builtBy);
-  margin-bottom: 30px;
+header {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--header-builtBy);
+    margin-bottom: 30px;
 }
 
-legend{
-  color: var(--labelsText);
+legend {
+    color: var(--labelsText);
 }
 
 /* *SEPERATE NAMES IN SAME CONTAINER */
-.both-names{
-  display: flex;
-  justify-content:space-between;
+.both-names {
+    display: flex;
+    justify-content: space-between;
 }
-#first-name, #last-name{
-  width: 265px;
+#first-name,
+#last-name {
+    width: 265px;
 }
 
 /* *FIELDSET STYLING */
-fieldset{
-  border-radius: 8px;
-  height: 60px;
+fieldset {
+    border-radius: 8px;
+    height: 60px;
 }
-fieldset,button{
-  margin-top: 20px;
+fieldset,
+button {
+    margin-top: 20px;
 }
-fieldset:hover{
-  border-color: var(--button-links-);
+fieldset:hover {
+    border-color: var(--button-links-);
 }
 
 /* *INPUT STYLING */
-input{
-  width: 550px;
-  border: none;
+input {
+    width: 550px;
+    border: none;
 }
-input:focus{
-  outline: none;
+input:focus {
+    outline: none;
 }
-input[type='text']{
-  font-family: inter;
-  font-size: 1em;
+input[type="text"] {
+    font-family: inter;
+    font-size: 1em;
 }
 
 /* *BUTTON SUBMIT STYLING */
 .btn-submit {
-  font-family: inter;
-  font-weight: bold;
-  color: white;
-  background-color: var(--button-links-);
-  padding: 1em 2em;
-  border: none;
-  border-radius: 8px;
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+    background-color: var(--button-links-);
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 /* *ACCOUNT EXISTENT LOGIN LINK-MESSAGE */
-.login-message{
-  padding-top: 0.5rem !important;
+.login-message {
+    padding-top: 0.5rem !important;
 }
-.login-link{
-  padding-left: 0.3rem !important;
-  color: var(--button-links-);
+.login-link {
+    padding-left: 0.3rem !important;
+    color: var(--button-links-);
 }
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 .login-link:link,
 .login-link:visited {
-  color: var(--button-links-);
-  text-decoration: none;
+    color: var(--button-links-);
+    text-decoration: none;
 }
 
 .login-link:hover,
 .login-link:focus,
 .login-link:active {
-  color: var(--button-links-);
+    color: var(--button-links-);
 }
 
 /* *FOOTER */
-footer{
-  position: absolute;
-  bottom: 0;
-  z-index: 100;
-  left: 35%;
-  padding: 1rem;
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    left: 35%;
+    padding: 1rem;
 }
 
 .built-by,
-.warning-message{
-  text-align: center;
-  font-family: inter;
+.warning-message {
+    text-align: center;
+    font-family: inter;
 }
 
-.built-by{
-  padding-bottom: .5rem;
+.built-by {
+    padding-bottom: 0.5rem;
 }
-.warning-message{
-  color: var(--warningFooter);
+.warning-message {
+    color: var(--warningFooter);
 }
-span{
-  font-weight: bold;
+span {
+    font-weight: bold;
 }
-/* todo span bold, color more low, built put icon and style it  */
+
+.fa-github {
+    color: var(--button-links-);
+    font-size: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+}

@@ -2,79 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@700&display=swap"
-    rel="stylesheet">
-  <title>Sign Up Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@700&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b454cf0edf.js" crossorigin="anonymous"></script>
+    <title>Sign Up Form</title>
 </head>
 
 <body>
-  <div class="main-container">
-    <div class="left-frame">
-      <h1 class="side-text">Embrace Technology and Design</h1>
-      <img class="image-background" src="Assets/leftFrame.png" alt="image with low pink orange and shades of pink">
-      <img class="shapes3d" src="Assets/objects3d.png" alt="" srcset="">
-    </div>
-
-    <div class="form-create-account"> 
-      <form class="form-sign-up">
-        <header>Create Account</header>
-
-        <div class="both-names">
-          
-          <fieldset>
-            <legend>First Name</legend>
-            <input type="text" id="first-name" required>
-          </fieldset>
-          
-          <fieldset>
-            <legend>Last Name</legend>
-            <input type="text" id="last-name" required>
-          </fieldset>
-
+    <div class="main-container">
+        <div class="left-frame">
+            <h1 class="side-text">Embrace Technology and Design</h1>
+            <img class="image-background" src="Assets/leftFrame.png"
+                alt="image with low pink orange and shades of pink" />
+            <img class="shapes3d" src="Assets/objects3d.png" alt="" srcset="" />
         </div>
 
-        <fieldset>
-          <legend>Email</legend>
-          <input type="email" id="email" required>
-        </fieldset>
+        <div class="form-create-account">
+            <form class="form-sign-up">
+                <header>Create Account</header>
 
-        <!-- TODO 'see how input will take only numbers' -->
-        <fieldset>
-          <legend>Phone Number</legend>
-          <input type="text"  id="phone-number">
-        </fieldset>
+                <div class="both-names">
+                    <fieldset>
+                        <legend>First Name</legend>
+                        <input type="text" id="first-name" required />
+                    </fieldset>
 
-        <fieldset>
-          <legend>Password</legend>
-          <input type="password"  id="password-input">
-        </fieldset>
+                    <fieldset>
+                        <legend>Last Name</legend>
+                        <input type="text" id="last-name" required />
+                    </fieldset>
+                </div>
 
-        <fieldset>
-          <legend>Password Confirmation</legend>
-          <input type="password" id="password-confirmation">
-        </fieldset>
+                <fieldset>
+                    <legend>Email</legend>
+                    <input type="email" id="email" required />
+                </fieldset>
 
-        <button class="btn-submit">
-          <span class="circle1"></span>
-          <span class="circle2"></span>
-          <span class="circle3"></span>
-          <span class="circle4"></span>
-          <span class="circle5"></span>
-          <span class="text">Submit</span>
-        </button>
-        <p class="login-message">Already have an account?<a class="login-link" href="login.html">Login</a></p>
-      </form>
+                <!-- TODO 'see how input will take only numbers' -->
+                <fieldset>
+                    <legend>Phone Number</legend>
+                    <input type="text" id="phone-number" />
+                </fieldset>
+
+                <fieldset>
+                    <legend>Password</legend>
+                    <input type="password" id="password-input" />
+                </fieldset>
+
+                <fieldset>
+                    <legend>Password Confirmation</legend>
+                    <input type="password" id="password-confirmation" />
+                </fieldset>
+
+                <button class="btn-submit">
+                    <span class="circle1"></span>
+                    <span class="circle2"></span>
+                    <span class="circle3"></span>
+                    <span class="circle4"></span>
+                    <span class="circle5"></span>
+                    <span class="text">Submit</span>
+                </button>
+                <p class="login-message">
+                    Already have an account?<a class="login-link" href="login.html">Login</a>
+                </p>
+            </form>
+        </div>
     </div>
-  </div>
-  <footer>
-    <p class="built-by">Built and design by GabrielDev</p>
-    <p class="warning-message">Be aware, this is only an exercice for my curriculum of The Odin Project, not a online service <span>* I don't keep any data*</span></p>
-  </footer>
+    <footer>
+        <p class="built-by">Built and design by GabrielDev
+            <a href="https://github.com/GabrielDevJourney" target="_blank">
+                <i class="fab fa-github fa-beat" style="--fa-beat-scale: 1.2"></i>
+            </a>
+        </p>
+        <p class="warning-message">
+            Be aware, this is only an exercice for my curriculum of The Odin
+            Project, not a online service <span>* I don't keep any data*</span>
+        </p>
+    </footer>
+
 </body>
 
 </html>
