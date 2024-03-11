@@ -127,3 +127,26 @@ input[type='text']{
   cursor: pointer;
   overflow: hidden;
 }
+
+/* *ACCOUNT EXISTENT LOGIN LINK-MESSAGE */
+.login-message{
+  padding-top: 0.5rem !important;
+}
+.login-link{
+  padding-left: 0.3rem !important;
+  color: var(--button-links-);
+}
+a{
+  text-decoration: none;
+}
+.login-link:link,
+.login-link:visited {
+  color: var(--button-links-);
+  text-decoration: none;
+}
+
+.login-link:hover,
+.login-link:focus,
+.login-link:active {
+  color: var(--button-links-);
+}
