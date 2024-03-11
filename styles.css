@@ -150,3 +150,12 @@ a{
 .login-link:active {
   color: var(--button-links-);
 }
+
+/* *FOOTER */
+footer{
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  left: 50%;
+  padding: 1.2rem;
+}
