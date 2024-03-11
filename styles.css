@@ -98,7 +98,7 @@ fieldset,button{
   margin-top: 20px;
 }
 fieldset:hover{
-  border-color: #e99265;
+  border-color: var(--button-links-);
 }
 
 /* *INPUT STYLING */
@@ -112,4 +112,18 @@ input:focus{
 input[type='text']{
   font-family: inter;
   font-size: 1em;
+}
+
+/* *BUTTON SUBMIT STYLING */
+.btn-submit {
+  font-family: inter;
+  font-weight: bold;
+  color: white;
+  background-color: var(--button-links-);
+  padding: 1em 2em;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
 }
