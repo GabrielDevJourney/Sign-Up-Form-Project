@@ -64,7 +64,6 @@
   flex-direction: column;
   justify-content: center;
   width: 600px;
-  height: 700px;
   font-family: inter;
 }
 
@@ -74,7 +73,7 @@ header{
   font-size: 2.3rem;
   font-weight: bold;
   color: var(--header-builtBy);
-  margin-bottom: px;
+  margin-bottom: 30px;
 }
 
 legend{
@@ -86,7 +85,6 @@ legend{
   display: flex;
   justify-content:space-between;
 }
-
 #first-name, #last-name{
   width: 265px;
 }
@@ -99,6 +97,9 @@ fieldset{
 fieldset,button{
   margin-top: 20px;
 }
+fieldset:hover{
+  border-color: #e99265;
+}
 
 /* *INPUT STYLING */
 input{
@@ -107,4 +108,8 @@ input{
 }
 input:focus{
   outline: none;
+}
+input[type='text']{
+  font-family: inter;
+  font-size: 1em;
 }
