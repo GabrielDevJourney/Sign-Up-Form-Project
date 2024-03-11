@@ -156,6 +156,23 @@ footer{
   position: absolute;
   bottom: 0;
   z-index: 100;
-  left: 50%;
-  padding: 1.2rem;
+  left: 35%;
+  padding: 1rem;
 }
+
+.built-by,
+.warning-message{
+  text-align: center;
+  font-family: inter;
+}
+
+.built-by{
+  padding-bottom: .5rem;
+}
+.warning-message{
+  color: var(--warningFooter);
+}
+span{
+  font-weight: bold;
+}
+/* todo span bold, color more low, built put icon and style it  */
