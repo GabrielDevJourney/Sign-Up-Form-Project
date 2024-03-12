@@ -19,6 +19,7 @@ submitBtn.addEventListener("click", function verifyPasswordMatching() {
     let firstInput = passwordInput.value;
     let secondInput = passwordConfirmation.value;
     if (firstInput === secondInput) {
+        confirmationField.style.borderColor = "#c0c0c0)";
     } else {
         confirmationField.style.borderColor = 'red'
     }
