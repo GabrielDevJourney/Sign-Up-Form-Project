@@ -15,10 +15,6 @@ const passwordConfirmation = document.querySelector('#password-confirmation')
 const submitBtn = document.querySelector(".btn-submit")
 const confirmationField = document.querySelector(".confirmation-field")
 
-//*first check if they match use log to see
-//*yes then not thing happens
-//*not match then border will turn red
-
 submitBtn.addEventListener("click", function verifyPasswordMatching() {
     let firstInput = passwordInput.value;
     let secondInput = passwordConfirmation.value;
@@ -28,3 +24,14 @@ submitBtn.addEventListener("click", function verifyPasswordMatching() {
     }
 });
 
+//*FUNCTION TO ENABLE VIEWING PASSWORD
+const checkBoxViewPassword = document.querySelector("#check-password")
+
+checkBoxViewPassword.addEventListener('click', function(){
+    let passwordViewing = passwordInput
+    if (passwordViewing.type === 'password') {
+        passwordViewing.type = 'text'
+    } else {
+        passwordViewing.type = 'password'
+    }
+})
