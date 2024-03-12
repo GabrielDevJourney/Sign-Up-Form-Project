@@ -116,6 +116,19 @@ input[type="text"] {
     font-size: 1em;
 }
 
+/* *CHECK PASSWORD CHECKBOX */
+.password-input-fieldset{
+    display: flex;
+    max-width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#check-password{
+    max-width: 50px;
+}
+
+
+
 /* *BUTTON SUBMIT STYLING */
 .btn-submit {
     font-family: inter;
