@@ -46,15 +46,16 @@
                 <!-- TODO 'see how input will take only numbers' -->
                 <fieldset>
                     <legend>Phone Number</legend>
-                    <input type="tel" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                    <input type="text" id="phone-number" required />
                 </fieldset>
 
                 <fieldset>
                     <legend>Password</legend>
                     <input type="password" id="password-input" />
+                    <input type="checkbox"  id="check-password">
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="confirmation-field">
                     <legend>Password Confirmation</legend>
                     <input type="password" id="password-confirmation" />
                 </fieldset>
@@ -84,7 +85,7 @@
             Project, not a online service <span>* I don't keep any data*</span>
         </p>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
