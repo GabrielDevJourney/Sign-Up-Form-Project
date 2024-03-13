@@ -63,7 +63,12 @@
 }
 
 /* *ICON STYLING */
-
+.icon-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.7rem;
+}
 
 /* *FORM STYLING */
 .login-form{
@@ -72,4 +77,146 @@
     justify-content: center;
     width: 600px;
     font-family: inter;
+}
+
+/* header form */
+header{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--header-builtBy);
+    margin-bottom: 30px;
+}
+
+legend {
+    color: var(--labelsText);
+}
+
+/* *FIELDSET STYLING */
+fieldset {
+    border-radius: 8px;
+    height: 60px;
+}
+fieldset,
+button {
+    margin-top: 20px;
+}
+fieldset:hover {
+    border-color: var(--button-links-);
+}
+
+/* *INPUT STYLING */
+input {
+    width: 550px;
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+input[type="text"] {
+    font-family: inter;
+    font-size: 1em;
+}
+
+.password-fieldset{
+    display: flex;
+    width: 600px;
+    padding-left: 12px;
+    padding-right: 0;
+}
+
+#checkbox-login{
+    width: 20px;
+}
+
+/* hide default styling checkbox */
+input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--button-links-); 
+    border-radius: 4px;
+    outline: none;
+}
+/* Custom checkbox styles */
+input[type='checkbox']:checked {
+    background-color: var(--button-links-); /* Change background color when checked */
+}
+
+/* Custom checkmark when checkbox is checked */
+input[type='checkbox']::before {
+    content: '\2713'; /* Unicode checkmark symbol */
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 20px; 
+    color: white; 
+}
+
+/* *BUTTON SUBMIT STYLYING */
+.btn-submit-login{
+    font-family: inter;
+    font-weight: bold;
+    color: white;
+    background-color: var(--button-links-);
+    padding: 1em 2em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* *CREATE ACC LINK AND TEXT STYLING */
+.create-account-link{
+    padding-left: 0.3em;
+    color: var(--button-links-);
+}
+a{
+    text-decoration: none;
+}
+.create-account-link:link,
+.create-account-link:visited{
+    color: var(--button-links-);
+    text-decoration: none;
+}
+.create-account-link:hover,
+.create-account-link:focus,
+.create-account-link:active {
+    color: var(--button-links-);
+}
+
+/* *FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    left: 15%;
+    padding: 1rem;
+}
+
+.built-by,
+.warning-message {
+    text-align: center;
+    font-family: inter;
+}
+
+.built-by {
+    padding-bottom: 0.5rem;
+}
+.warning-message {
+    color: var(--warningFooter);
+}
+span {
+    font-weight: bold;
+}
+
+.fa-github {
+    color: var(--button-links-);
+    font-size: 1.5rem;
+    transition: transform 0.5s ease-in-out;
 }
