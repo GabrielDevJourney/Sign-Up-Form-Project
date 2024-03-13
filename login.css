@@ -30,14 +30,14 @@
 .login-container{
     display: flex;
     align-items: center;
-    justify-content: start;
-    width: 980px;
+    justify-content: center;
+    width: 1460px;
     height: 100vh;
     position: absolute;
     z-index: 2;
     background-color: white;
     left: 0;
-    margin-left: 480px;
+    margin-left: px;
     border-radius: 0 40px 40px 0;
 }
 
@@ -58,6 +58,18 @@
     position: absolute;
     z-index: 10;
     right: 0;
-    left: 65%;
+    left: 75%;
     margin-left: 5rem;
+}
+
+/* *ICON STYLING */
+
+
+/* *FORM STYLING */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    font-family: inter;
 }
