@@ -12,7 +12,7 @@
     --warningFooter: #545454;
 }
 
-.login-container{
+.wrapper-container{
     display: flex;
     height: 100vh;
     position: relative;
@@ -20,6 +20,44 @@
 
 /* *FRAME */
 .right-frame{
-    position: relative;
+    position: absolute;
     height: 100vh;
+    right: 0;
+    z-index: 1;
+}
+
+/* *LOGIN CONTAINER */
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 980px;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    left: 0;
+    margin-left: 480px;
+    border-radius: 0 40px 40px 0;
+}
+
+/* *TEXT HEADER OF FRAME */
+.frame-text{
+    margin-left: 7rem;
+    width: 400px;
+    font-family: syne, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    color: var(--textside-);
+    transform: translate(8%, 150%);
+}
+
+/* *IMAGERY */
+.shapes3d-image{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 65%;
+    margin-left: 5rem;
 }
