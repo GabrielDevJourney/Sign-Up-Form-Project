@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@700&display=swap"
+        rel="stylesheet" />
     <link rel="shortcut icon" href="Assets/orangeIcon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b454cf0edf.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
+
 <body>
     <div class="main-container">
         <div class="login-container">
 
-            <form  class="login-form">
+            <img class="icon-page" src="Assets/orangeIcon.png" alt="">
+
+            <!-- *FORM -->
+            <form class="login-form">
                 <header>Welcome Back!</header>
 
                 <fieldset>
@@ -30,8 +36,14 @@
                 </fieldset>
 
                 <button type="submit" class="btn-submit-login">Submit</button>
+
+                <p class="create-account-message">
+                    Don't have an account? <a href="createAccount.html" class="create-account-link">Create Account</a>
+                </p>
             </form>
         </div>
+
+        <!-- *FRAME-->
         <div class="right-frame">
             <h1 class="frame-text">Get Back To Your Journey</h1>
 
@@ -41,5 +53,18 @@
         </div>
     </div>
 
+    <footer>
+        <p class="built-by">Built and design by GabrielDev
+            <a href="https://github.com/GabrielDevJourney" target="_blank">
+                <i class="fab fa-github fa-beat" style="--fa-beat-scale: 1.2"></i>
+            </a>
+        </p>
+        <p class="warning-message">
+            Be aware, this is only an exercice for my curriculum of The Odin
+            Project, not a online service <span>* I don't keep any data*</span>
+        </p>
+    </footer>
+    <script src="loginScript.js"></script>
 </body>
+
 </html>
