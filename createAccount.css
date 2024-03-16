@@ -12,6 +12,38 @@
     --labelsText: #636363;
     --warningFooter: #545454;
 }
+.modal-container{
+    position: relative;
+    width: 600px;
+    height: 575px;
+    z-index: 1000;
+}
+.modal-background{
+    position: absolute;
+}
+.text-modal-container{
+    width: 600px;
+    height: 575px;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+}
+
+.text-modal-container > h2{
+    font-size: 3rem;
+}
+.text-modal-container > h4{
+    font-size: 1.5rem;
+}
+.text-modal-container > h1{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 7rem;
+}
+
 
 .main-container {
     display: flex;
