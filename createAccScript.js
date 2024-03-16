@@ -52,7 +52,6 @@ const submitBtn = document.querySelector('.btn-submit')
 submitBtn.addEventListener('click', (e) => {
     e.preventDefault()
 
-
         if (areAllInputsFilled() === true ) {
             messageRegistration.style.display = 'inline-block'
             form.style.display = "none";
@@ -61,8 +60,6 @@ submitBtn.addEventListener('click', (e) => {
             alert('Please fill all fields')
         }
 })
-
-
 
 
 //*FUNCTION TO ENABLE VIEWING PASSWORD
