@@ -44,3 +44,4 @@ This project is a sign-up form aimed at allowing users to create accounts on a w
 ![Figma mockup idea](/Assets/figmaMockUpSignUpProject.png)
 
 ## Demo Link
+[Preview here](https://gabrieldevjourney.github.io/Sign-Up-Form-Project/)
